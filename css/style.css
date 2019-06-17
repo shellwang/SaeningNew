@@ -169,6 +169,13 @@ i:before {
   color: #51545f;
 }
 
+.b_center_title .read_btn {
+  width: 180px;
+  margin:0 auto;
+  display: block;
+  align-items: center;
+}
+
 /* Main title css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -221,7 +228,7 @@ i:before {
   padding: 0px;
   line-height: 99px;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   -webkit-transition: all 400ms linear 0s;
@@ -439,7 +446,7 @@ i:before {
 /* Banner Area css
 ============================================================================================ */
 .banner_area {
-  background: url(../img/banner/banner-0.jpg) no-repeat scroll center center;
+  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   min-height: 400px;
@@ -447,7 +454,7 @@ i:before {
 
 .banner_area:before {
   content: "";
-  background: rgba(4, 8, 29, 0.7);
+  background: rgba(4, 8, 29, 0.3);
   position: absolute;
   left: 0px;
   top: 0;
@@ -1205,12 +1212,14 @@ i:before {
 }
 
 .static_social ul li {
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .static_social ul li a {
-  height: 30px;
-  width: 30px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
   text-align: center;
   background: #4c65a8;
   color: #fff;
@@ -1440,6 +1449,16 @@ i:before {
 /* End Static Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+
+/* Recruits Area css
+============================================================================================ */
+
+
+/* End Recruits Area css
+============================================================================================ */
+/*---------------------------------------------------- */
+
+
 
 /* People Area css
 ============================================================================================ */
@@ -1840,11 +1859,11 @@ i:before {
 .footer_widgets_area {
   background: #808080;
   overflow: hidden;
-  padding: 80px 0px;
+  padding: 25px 0px;
 }
 
 .f_w_title {
-  padding-bottom: 25px;
+  padding-top: 10px;
 }
 
 .f_w_title h3 {
@@ -1854,185 +1873,22 @@ i:before {
   font-size: 16px;
 }
 
-.subscribe_widget p {
-  font-size: 14px;
-  line-height: 26px;
-  color: #fff;
-  font-weight: 300;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 20px;
+.f_w_social {
+  margin-right: 5px;
 }
 
-.subscribe_widget .input-group input {
-  background: #2b2e3d;
-  border: none;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  height: 40px;
-  border-radius: 3px;
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-  padding: 0px 15px;
+.f_w_social .static_social {
+  margin-top: 0px;
 }
 
-.subscribe_widget .input-group input.placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.subscribe_widget .input-group input:-moz-placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.subscribe_widget .input-group input::-moz-placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.subscribe_widget .input-group input::-webkit-input-placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.subscribe_widget ul {
-  padding-top: 30px;
-}
-
-.subscribe_widget ul li {
+.f_w_social .static_social ul li {
   display: inline-block;
-  margin-right: 32px;
+  margin-right: 10px;
+  margin-bottom: 0px;
 }
 
-.subscribe_widget ul li a {
-  font-size: 14px;
-  color: #fff;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.subscribe_widget ul li:hover a {
-  color: #005f99;
-}
-
-.subscribe_widget ul li:last-child {
+.f_w_social .static_social ul li:last-child {
   margin-right: 0px;
-}
-
-.twitter_widget {
-  margin-left: 55px;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text {
-  font-size: 14px;
-  line-height: 26px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text i {
-  padding-right: 5px;
-  color: #005f99;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a {
-  font-size: 14px;
-  line-height: 26px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a:hover {
-  color: #005f99;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_date {
-  font-size: 14px;
-  line-height: 26px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-  padding-top: 15px;
-}
-
-.twitter_widget .tweets_feed ul .owl-item .footer .tweet_time.fright a {
-  font-size: 14px;
-  line-height: 26px;
-  color: #005f99;
-  font-family: "Poppins", sans-serif;
-}
-
-.categories_widget {
-  margin-left: 70px;
-}
-
-.categories_widget ul {
-  width: calc(100% / 2);
-  float: left;
-  margin-top: -4px;
-}
-
-.categories_widget ul li a {
-  position: relative;
-  font-size: 14px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-  line-height: 36px;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.categories_widget ul li a i {
-  position: absolute;
-  left: 0px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  opacity: 0;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.categories_widget ul li:hover a {
-  padding-left: 15px;
-  color: #005f99;
-}
-
-.categories_widget ul li:hover a i {
-  opacity: 1;
-}
-
-.contact_widget {
-  margin-left: 50px;
-}
-
-.contact_widget a, .contact_widget p, .contact_widget h6 {
-  font-size: 14px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-  -webkit-transition: all 400ms linear 0s;
-  -o-transition: all 400ms linear 0s;
-  transition: all 400ms linear 0s;
-}
-
-.contact_widget a:hover, .contact_widget p:hover, .contact_widget h6:hover {
-  color: #005f99;
-}
-
-.contact_widget p {
-  padding: 23px 0px;
 }
 
 .copy_right_area {

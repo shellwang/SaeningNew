@@ -1,6 +1,6 @@
 <?php
 
-    $to = "washng@gmail.com";
+    $to = "webmaster@saening.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $subject = $_REQUEST['subject'];
@@ -13,9 +13,9 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Creative Agency.";
+    $subject = "来自您客户的新消息.";
 
-    $logo = 'http://wethemez.com/test-html/consultplus/img/logo-black.png';
+    $logo = './img/logo.png';
     $link = '#';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";

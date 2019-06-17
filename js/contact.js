@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    
+
     (function($) {
         "use strict";
 
-    
+
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
     }, "type the correct answer -_-");
@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "请输入您的姓名哈！",
+                    minlength: "至少输入一个字吧？"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "请输入一个主题，可以吗?",
+                    minlength: "主题至少含有4个字，请输入4个字以上"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "请输入您的手机号码，以便我们联系您！",
+                    minlength: "手机号码至少含有11个数字"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "请输入您的邮箱，您会收到我们的回复信息"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "请输入您所要咨询的主题",
+                    minlength: "主题至少10个字符"
                 }
             },
             submitHandler: function(form) {
@@ -80,6 +80,6 @@ $(document).ready(function(){
             }
         })
     })
-        
+
  })(jQuery)
 })
