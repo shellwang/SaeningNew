@@ -228,7 +228,7 @@ i:before {
   padding: 0px;
   line-height: 99px;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   -webkit-transition: all 400ms linear 0s;
@@ -449,7 +449,7 @@ i:before {
   background: url(../img/banner/banner.jpg) no-repeat scroll center center;
   background-size: cover;
   position: relative;
-  min-height: 400px;
+  min-height: 300px;
 }
 
 .banner_area:before {
@@ -1054,6 +1054,12 @@ i:before {
   margin: auto;
 }
 
+.service_btn {
+  display: block;
+  align-items: center;
+  color: #232d37;
+}
+
 /* End Our Service Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -1217,7 +1223,7 @@ i:before {
 }
 
 .static_social ul li a {
-  font-size: 20px;
+  font-size: 18px;
   height: 40px;
   width: 40px;
   text-align: center;
@@ -1867,10 +1873,17 @@ i:before {
 }
 
 .f_w_title h3 {
-  color: #fff;
+  color: #04081d;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
+}
+
+.f_w_title p {
+  color: #04081d;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .f_w_social {
@@ -1878,7 +1891,7 @@ i:before {
 }
 
 .f_w_social .static_social {
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 .f_w_social .static_social ul li {
