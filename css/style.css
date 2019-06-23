@@ -1211,6 +1211,22 @@ i:before {
   position: relative;
 }
 
+.static_img {
+  text-align: center;
+  padding-right: 50px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.static_img img {
+  max-width: 70%;
+}
+
 .static_main_content .static_social {
   position: absolute;
   left: -60px;
@@ -1285,6 +1301,47 @@ i:before {
   padding-top: 13px;
 }
 
+.static_text2 ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.static_text2 ul li a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #005f99;
+  font-family: "Poppins", sans-serif;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+  padding-left: 20px;
+  position: relative;
+}
+
+.static_text2 ul li a:before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: #005f99;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.static_text2 ul li:hover a {
+  color: #005f99;
+}
+
+.static_text2 ul li:hover a:before {
+  left: 5px;
+}
+
 .media {
   margin: 30px 0px;
 }
@@ -1330,8 +1387,9 @@ i:before {
 
 .right_sidebar_area {
   padding-left: 20px;
+  padding-top: 35px;
+  padding-bottom: 15px;
 }
-
 .right_widget {
   margin-bottom: 45px;
 }
@@ -1507,6 +1565,12 @@ i:before {
   padding: 30px 35px;
 }
 
+.people_lawyer_item .people_lawyer_content2 {
+  border: 1px solid #ebebeb;
+  border-top: 0px;
+  padding: 15px 20px;
+}
+
 .people_lawyer_item .people_lawyer_content h4 {
   font-size: 18px;
   color: #005f99;
@@ -1527,7 +1591,35 @@ i:before {
   color: #51545f;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  padding: 15px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.people_lawyer_item .people_lawyer_content2 {
+  border: 1px solid #ebebeb;
+  border-top: 0px;
+  padding: 20px 20px 35px 20px;
+}
+.people_lawyer_item .people_lawyer_content2 h4 {
+  font-size: 15px;
+  color: #005f99;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  -webkit-transition: all 400ms linear 0s;
+  -o-transition: all 400ms linear 0s;
+  transition: all 400ms linear 0s;
+}
+
+.people_lawyer_item .people_lawyer_content2 h4:hover {
+  color: #005f99;
+}
+
+.people_lawyer_item .people_lawyer_content2 p {
+  font-size: 11px;
+  line-height: 26px;
+  color: #005f99;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 5px 0px 5px 0px;
 }
 
 .people_lawyer_item:hover {
