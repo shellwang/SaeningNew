@@ -960,10 +960,10 @@ i:before {
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  background-image: -webkit-gradient(linear, left top, right top, from(#744fff), color-stop(51%, #21d397), to(#744fff));
-  background-image: -webkit-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: -o-linear-gradient(left, #744fff 0%, #21d397 51%, #744fff 100%);
-  background-image: linear-gradient(to right, #744fff 0%, #21d397 51%, #744fff 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#005f99), color-stop(51%, #005f99), to(#005f99));
+  background-image: -webkit-linear-gradient(left, #005f99 0%, #005f99 51%, #005f99 100%);
+  background-image: -o-linear-gradient(left, #005f99 0%, #005f99 51%, #005f99 100%);
+  background-image: linear-gradient(to right, #005f99 0%, #005f99 51%, #005f99 100%);
   text-align: center;
   position: relative;
   background-size: 200% auto;
@@ -1301,6 +1301,7 @@ i:before {
   padding-top: 13px;
 }
 
+
 .static_text2 ul li {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -1627,6 +1628,46 @@ i:before {
   box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
 }
 
+.people_img {
+  text-align: left;
+  padding-right: 50px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.people_img img {
+  max-width: 70%;
+}
+
+
+
+.people_text h3 {
+  font-size: 24px;
+  color: #1e1e27;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.people_text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #51545f;
+  font-family: "Poppins", sans-serif;
+  padding-top: 13px;
+}
+
+.people_text p a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #005f99;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+}
 
 /* End People Area css
 ============================================================================================ */
@@ -1639,10 +1680,20 @@ i:before {
   padding: 110px 0px;
 }
 
-.mapBox {
-  min-height: 520px;
-  -webkit-box-shadow: 0px 27px 51.33px 7.67px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 27px 51.33px 7.67px rgba(0, 0, 0, 0.15);
+.map_img {
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.map_img img {
+  max-width: 100%;
 }
 
 .contact_details_inner {
