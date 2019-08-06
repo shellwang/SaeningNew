@@ -221,7 +221,7 @@ i:before {
 
 .main_menu_area .navbar .navbar-nav li {
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 .main_menu_area .navbar .navbar-nav li a {
@@ -304,7 +304,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar-nav.justify-content-end {
-  margin-left: 85px;
+  margin-left: 45px;
 }
 
 .main_menu_area .navbar .navbar-nav.justify-content-end li {
