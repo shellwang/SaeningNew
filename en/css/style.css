@@ -1473,9 +1473,9 @@ i:before {
   width: 8px;
   border-radius: 50%;
   background: #005f99;
-  position: absolute;
+  position: relative;
   left: 0px;
-  top: 50%;
+  top: 12px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
